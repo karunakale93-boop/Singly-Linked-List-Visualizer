@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Singly Linked List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Singly Linked List</h1>
+<div class="input-container">
+    <div class="input-group">
+        <label>Enter value</label>
+        <input type="number" id="value">
+    </div>
+    <div class="input-group">
+        <label>Enter position</label>
+        <input type="number" id="position">
+    </div>
+</div>
+<div class="buttons">
+    <button onclick="insertStart()">Insert Beginning</button>
+    <button onclick="insertEnd()">Insert End</button>
+    <button onclick="insertAtPos()">Insert At Position</button>
+</div>
+<div class="buttons">
+    <button onclick="deleteNode()">Delete</button>
+    <button onclick="searchNode()">Search</button>
+</div>
+<div id="output"></div>
+<div id="list"></div>
+<script src="script.js"></script>
+</body>
+</html>
